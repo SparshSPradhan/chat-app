@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { sendMessage } from '../features/chatSlice'; // Correct import of sendMessage
+import { sendMessage } from 'chatSlice'; // Correct import of sendMessage
 import { Box, TextField, Button, Typography, List, ListItem } from '@mui/material';
 
 const Chat = () => {

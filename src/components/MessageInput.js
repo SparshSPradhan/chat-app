@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Button } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { sendMessage } from '../features/chatSlice';
+import { sendMessage } from 'chatSlice';
 
 const MessageInput = () => {
   const [text, setText] = useState('');
